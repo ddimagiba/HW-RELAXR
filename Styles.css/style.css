@@ -7,14 +7,41 @@ body{
 	
 }
 
+#container {
+	width: 100%;
+	margin: 100px;
+	height: 530px;
+	color: black;
+}
 
+.clearfix: after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.top .logo {
+	float: left;
+	margin-left: 10px;
+	font-size: 24px;
+	top: 20px;
+	position: absolute;
+	box-sizing: border-box;
+
+}
 
 header {
-	background-image: url(./images.header_bg.jpg) no-repeat center top rgb(134,141,157);
-	background-position: 20px 10px;
-	width: 100px;
-	box-sizing: border-box;
-	margin: 10px 10px 10px;
+background-image: url(./images.header_bg.jpg) no-repeat center top rgb(134,141,157);
+background-size: cover;
+height: 500px;
+width: 100px;
+position:  : absolute;
+color: white;
+box-sizing: border-box;
+color: black;
 }
 
 
@@ -24,7 +51,7 @@ header {
 	border: black;
 }
 
-.company {
+.discription {
 	float: right;
 	position: relative;
 	padding: 10px;
